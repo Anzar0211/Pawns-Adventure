@@ -1,0 +1,136 @@
+.home-container {
+    display: flex;
+    /* Use flexbox to create a horizontal layout */
+    width: auto;
+    /* Full width of the viewport */
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: rgba(24, 33, 56, 1);
+}
+
+.left-column,
+.right-column {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-column .top-left-paragraph {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    width:80px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Inter";
+    margin-left:41px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+
+
+.right-column h1 {
+    font-size: 85px;
+    margin-top: 0;
+    
+}
+
+
+
+.right-column button {
+    display: block;
+    
+    width: 100%;
+    
+    margin-top:10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    font-size: 18px;
+    background-color: #007bff;
+   
+    /* color: #fff; */
+    
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+}
+
+.right-column button:hover {
+    background-color: rgba(119,149,87,1);
+    /* Darker background color on hover */
+}
+
+.left-column img{
+   
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+  
+}
+
+
+
+
+.right-column h1 {
+    font-size: 24px;
+
+    margin-top: 0;
+
+}
+
+.right-column button {
+    display: block;
+
+    width: 100%;
+
+    margin-top: 10px;
+
+    padding: 10px;
+
+    font-size: 18px;
+
+    background-color: rgba(119,149,87,1);
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#AI{
+    background-color: black;
+}
+
+.right-column #AI:hover{
+    background-color: gray;
+
+}
+
+
+.right-column button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

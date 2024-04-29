@@ -1,0 +1,78 @@
+/* LoginPage.css */
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.login-form {
+    flex: 1;
+    /* Take up remaining space */
+    padding: 20px;
+    /* Add padding for spacing */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    /* Add margin below the heading */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Add margin between form groups */
+}
+
+label {
+    display: block;
+    /* Display labels as block elements */
+    margin-bottom: 5px;
+    /* Add margin below labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    /* Make inputs fill the entire width of the form */
+    padding: 10px;
+    /* Add padding for spacing */
+    margin-bottom: 10px;
+    /* Add margin below inputs */
+    border: 1px solid #ccc;
+    /* Add border for inputs */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+}
+
+button {
+    width: 100%;
+    /* Make button fill the entire width of the form */
+    padding: 10px;
+    /* Add padding for spacing */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker background color on hover */
+}
+
+.image-container {
+    flex: 1;
+    /* Take up remaining space */
+    background-image: url('path_to_image.jpg');
+    /* Replace 'path_to_image.jpg' with the actual path to your image */
+    background-size: cover;
+    /* Ensure the image covers the entire container */
+    background-position: center;
+    /* Center the image */
+}
